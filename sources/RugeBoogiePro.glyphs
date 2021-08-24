@@ -19,7 +19,8 @@ C,
 "'",
 "ªº",
 "-­",
-"/quotesinglbase"
+"/quotesinglbase",
+"/quotedblbase"
 );
 classes = (
 {
@@ -143973,12 +143974,10 @@ unicode = 201A;
 },
 {
 glyphname = quotedblbase;
+lastChange = "2021-08-24 09:01:16 +0000";
 layers = (
 {
 components = (
-{
-name = comma;
-},
 {
 name = comma;
 }
