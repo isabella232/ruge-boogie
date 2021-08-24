@@ -10,7 +10,16 @@ $,
 "o/ohorn/ohorntilde",
 "/uhorndotbelow",
 "/dotbelowcomb/Ohorndotbelow.ss01",
-C
+C,
+"«",
+"\"",
+"/quotedblleft",
+"/quotedblright",
+"/quoteleft",
+"'",
+"ªº",
+"-­",
+"/quotesinglbase"
 );
 classes = (
 {
@@ -137580,6 +137589,107 @@ width = 659;
 );
 },
 {
+glyphname = ordfeminine;
+lastChange = "2021-08-24 08:55:48 +0000";
+layers = (
+{
+layerId = "245B06BA-2FC8-4E2B-85DB-2741CBBED619";
+paths = (
+{
+closed = 1;
+nodes = (
+"210 394 OFFCURVE",
+"213 409 OFFCURVE",
+"211 414 CURVE SMOOTH",
+"197 445 OFFCURVE",
+"186 480 OFFCURVE",
+"180 513 CURVE",
+"185 529 OFFCURVE",
+"188 544 OFFCURVE",
+"188 557 CURVE SMOOTH",
+"188 571 OFFCURVE",
+"185 585 OFFCURVE",
+"180 598 CURVE",
+"180 598 LINE",
+"188 607 OFFCURVE",
+"191 620 OFFCURVE",
+"191 627 CURVE SMOOTH",
+"191 666 OFFCURVE",
+"157 675 OFFCURVE",
+"122 675 CURVE SMOOTH",
+"27 675 OFFCURVE",
+"13 573 OFFCURVE",
+"13 516 CURVE SMOOTH",
+"13 469 OFFCURVE",
+"42 433 OFFCURVE",
+"93 433 CURVE SMOOTH",
+"121 433 OFFCURVE",
+"149 461 OFFCURVE",
+"165 485 CURVE",
+"175 461 OFFCURVE",
+"173 437 OFFCURVE",
+"189 407 CURVE SMOOTH",
+"194 397 OFFCURVE",
+"199 394 OFFCURVE",
+"203 394 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"60 459 OFFCURVE",
+"49 510 OFFCURVE",
+"49 546 CURVE SMOOTH",
+"49 605 OFFCURVE",
+"81 662 OFFCURVE",
+"129 662 CURVE SMOOTH",
+"155 662 OFFCURVE",
+"176 654 OFFCURVE",
+"176 624 CURVE SMOOTH",
+"176 619 OFFCURVE",
+"171 611 OFFCURVE",
+"167 607 CURVE",
+"166 607 OFFCURVE",
+"164 607 OFFCURVE",
+"162 606 CURVE",
+"156 607 OFFCURVE",
+"156 607 OFFCURVE",
+"152 614 CURVE",
+"153 614 LINE",
+"148 619 OFFCURVE",
+"142 616 OFFCURVE",
+"142 610 CURVE SMOOTH",
+"142 610 OFFCURVE",
+"142 608 OFFCURVE",
+"142 607 CURVE SMOOTH",
+"147 602 OFFCURVE",
+"148 599 OFFCURVE",
+"150 595 CURVE",
+"148 590 OFFCURVE",
+"147 582 OFFCURVE",
+"147 571 CURVE SMOOTH",
+"147 560 OFFCURVE",
+"150 549 OFFCURVE",
+"152 538 CURVE SMOOTH",
+"153 532 OFFCURVE",
+"156 520 OFFCURVE",
+"156 510 CURVE SMOOTH",
+"156 506 OFFCURVE",
+"156 502 OFFCURVE",
+"154 500 CURVE",
+"146 483 OFFCURVE",
+"126 459 OFFCURVE",
+"100 459 CURVE SMOOTH"
+);
+}
+);
+width = 210;
+}
+);
+rightMetricsKey = a;
+unicode = 00AA;
+},
+{
 glyphname = ordmasculine;
 lastChange = "2021-08-13 16:18:17 +0000";
 layers = (
@@ -143605,6 +143715,60 @@ note = hyphen;
 unicode = 002D;
 },
 {
+glyphname = softhyphen;
+lastChange = "2021-08-24 08:56:28 +0000";
+layers = (
+{
+layerId = "245B06BA-2FC8-4E2B-85DB-2741CBBED619";
+paths = (
+{
+closed = 1;
+nodes = (
+"47 194 OFFCURVE",
+"50 195 OFFCURVE",
+"53 197 CURVE SMOOTH",
+"65 206 OFFCURVE",
+"76 211 OFFCURVE",
+"91 211 CURVE SMOOTH",
+"99 211 OFFCURVE",
+"105 211 OFFCURVE",
+"112 208 CURVE",
+"129 204 OFFCURVE",
+"211 220 OFFCURVE",
+"226 230 CURVE SMOOTH",
+"230 232 OFFCURVE",
+"232 235 OFFCURVE",
+"232 238 CURVE SMOOTH",
+"232 243 OFFCURVE",
+"228 247 OFFCURVE",
+"222 247 CURVE SMOOTH",
+"220 247 OFFCURVE",
+"218 246 OFFCURVE",
+"216 245 CURVE SMOOTH",
+"204 237 OFFCURVE",
+"152 239 OFFCURVE",
+"141 239 CURVE SMOOTH",
+"125 240 OFFCURVE",
+"110 251 OFFCURVE",
+"91 251 CURVE SMOOTH",
+"64 251 OFFCURVE",
+"54 233 OFFCURVE",
+"36 220 CURVE SMOOTH",
+"32 217 OFFCURVE",
+"30 213 OFFCURVE",
+"30 209 CURVE SMOOTH",
+"30 201 OFFCURVE",
+"37 194 OFFCURVE",
+"44 194 CURVE SMOOTH"
+);
+}
+);
+width = 228;
+}
+);
+unicode = 00AD;
+},
+{
 color = 0;
 glyphname = endash;
 lastChange = "2021-08-24 08:46:40 +0000";
@@ -143793,9 +143957,42 @@ width = 683;
 unicode = 005F;
 },
 {
+glyphname = quotesinglbase;
+layers = (
+{
+components = (
+{
+name = comma;
+}
+);
+layerId = "245B06BA-2FC8-4E2B-85DB-2741CBBED619";
+width = 258;
+}
+);
+unicode = 201A;
+},
+{
+glyphname = quotedblbase;
+layers = (
+{
+components = (
+{
+name = comma;
+},
+{
+name = comma;
+}
+);
+layerId = "245B06BA-2FC8-4E2B-85DB-2741CBBED619";
+width = 258;
+}
+);
+unicode = 201E;
+},
+{
 color = 0;
 glyphname = quotedblleft;
-lastChange = "2021-08-13 23:34:33 +0000";
+lastChange = "2021-08-24 08:53:20 +0000";
 layers = (
 {
 components = (
@@ -143818,13 +144015,10 @@ unicode = 201C;
 {
 color = 0;
 glyphname = quotedblright;
-lastChange = "2021-08-13 22:30:00 +0000";
+lastChange = "2021-08-24 08:53:26 +0000";
 layers = (
 {
 components = (
-{
-name = quoteright;
-},
 {
 name = quoteright;
 }
@@ -144114,7 +144308,7 @@ unicode = 203A;
 {
 color = 4;
 glyphname = quotedbl;
-lastChange = "2021-08-13 23:34:15 +0000";
+lastChange = "2021-08-24 08:53:37 +0000";
 layers = (
 {
 components = (
@@ -144136,7 +144330,7 @@ unicode = 0022;
 {
 color = 0;
 glyphname = quotesingle;
-lastChange = "2021-08-13 22:30:00 +0000";
+lastChange = "2021-08-24 08:53:42 +0000";
 layers = (
 {
 components = (
